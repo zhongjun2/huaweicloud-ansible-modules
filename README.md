@@ -16,7 +16,7 @@ Installation
 Install the role.
 
   ``` bash
-  $ ansible-galaxy install huaweicloud.huaweicloud_ansible_modules
+  $ ansible-galaxy install zhongjun2.huaweicloud_ansible_modules
   ```
 
 Example Playbook
@@ -24,7 +24,7 @@ Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: huaweicloud.huaweicloud_ansible_modules }
+        - { role: zhongjun2.huaweicloud_ansible_modules }
       tasks:
 		- name: create a new vpc
 		  hwc_network_vpc:
